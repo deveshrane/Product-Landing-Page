@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="Company Logo"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#video" class="nav-link">How It Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+    <div id="hero">
+      <h1 id="title">Handcrafted, home-made masterpieces</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your E-Mail ID"
+          required
+        />
+        <br />
+        <center>
+          <input type="submit" value="Get Started" id="submit" />
+        </center>
+      </form>
+    </div>
+    <div id="features">
+      <div class="container">
+        <i class="fa fa-3x fa-fire"></i>
+        <div class="in-container">
+          <h2 style="margin-top: 0px; margin-bottom: 0px">Premium Materials</h2>
+          <p class="in-p" style="margin-top: 0px; margin-bottom: 0px">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <i class="fa fa-3x fa-truck"></i>
+        <div class="in-container">
+          <h2 style="margin-top: 0px; margin-bottom: 0px">Fast Shipping</h2>
+          <p class="in-p" style="margin-top: 0px; margin-bottom: 0px">
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+        <div class="in-container">
+          <h2 style="margin-top: 0px; margin-bottom: 0px">Quality Assurance</h2>
+          <p style="margin-top: 0px; margin-bottom: 0px" class="in-p">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="video-box">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/y8Yv4pnO7qc"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="pricing-box">
+      <div class="pricing" id="pricing">
+        <div class="price-head">TENOR TROMBONE</div>
+        <p class="MRP">$600</p>
+        <ol class="para">
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+        </ol>
+        <button>SELECT</button>
+      </div>
+      <div class="pricing">
+        <div class="price-head">BASS TROMBONE</div>
+        <p class="MRP">$900</p>
+        <ol class="para">
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+        </ol>
+        <button>SELECT</button>
+      </div>
+      <div class="pricing">
+        <div class="price-head">VALVE TROMBONE</div>
+        <p class="MRP">$1200</p>
+        <ol class="para">
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+        </ol>
+        <button>SELECT</button>
+      </div>
+    </div>
+    <footer id="footer">
+      <div id="foot-nav">
+        <a href="#" class="links">Privacy</a>
+        <a href="#" class="links">Terms</a>
+        <a href="#" class="links">Contact</a>
+      </div>
+      <div id="copy-box">
+        <p id="copy">&copy; 2016, Original Trombones</p>
+      </div>
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
